@@ -9,9 +9,7 @@ const passport = require('passport');
 const { passportLocalConfig, serializeDeserializeUser } = require('./config/passport');
 const session = require('express-session');
 
-
 db()
-
 
 const app = express();
 app.use(session({

@@ -1,4 +1,3 @@
-const jwt = require('jsonwebtoken');
 
 // Middleware to check if the user is logged in (Authentication)
 module.exports.isLoggedIn = (req, res, next) => {
